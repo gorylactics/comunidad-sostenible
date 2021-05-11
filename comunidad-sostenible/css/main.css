@@ -1,0 +1,151 @@
+/* *{outline: 1.7px dotted red;} */
+#navegacion{
+    position: fixed; 
+    z-index: 1;
+   
+}
+
+.logo{width: 8vw;}
+.imgCentral{
+    margin-top: -200px; 
+    margin-bottom: -200px;
+    clip-path: inset(200px 0px 200px 0px);
+}
+#mision, #vision{margin-left: calc(50% - 78.5px);}
+
+#metodo{
+    clip-path: inset(0px 0px 26.44px 0px);
+    margin-bottom: 26.44px;
+}
+.cajaImagen{position: relative}
+#pizarra{
+    position: absolute;
+    
+    
+    
+}
+.contenidoPizarra{
+    font-size: 1em;
+}
+.cajaContenido{
+    position: relative;}
+    #dibujoPizarra{
+        margin-left: calc(50% - 26.5px);
+        
+    }
+    .tarjetero{
+        position: relative;
+    }
+    .cuerpo{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .linkProyecto{
+        text-decoration: none;
+    }
+    .cuerpo img{
+        margin-left: calc(50% - 67px);
+    }
+    .testimonio{
+        position: relative;
+        
+    }
+
+    .tarjetaProyecto{
+        display: inline-block;
+    }
+
+    #proyectos{
+        padding-top: 60px;
+    }
+    
+    .fotoEquipo{
+        margin-left: calc(50% - 150px);
+        border-radius: 50%;
+    }
+    
+    .rrss ul{
+        list-style: none;
+    }
+    .rrss ul li{
+        text-decoration: none;
+        display: inline-block;
+        margin-left: calc(30% - 60px);
+    }
+    .rrssIcono{
+        width: 40px;
+    }
+    
+    .elCarrusel{
+        background-image: url(../img/fondo2.jpg);
+    }
+    #blog > h1{
+        margin-top: 130px;
+       
+    }
+    .cajaCarrusel{
+        padding: 10px;
+        margin-left: 9.5%;
+    }
+    .fichaCarrusel{
+        width: 20%;
+        display: inline-block;
+        margin: 40px;  
+    }
+
+#logos{
+        list-style: none;
+        /* margin-left: 35px ; */
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-top: 80px;
+        
+    }
+
+#logos li{
+    text-decoration: none;
+    display: inline-block;
+    padding-bottom: 100px;
+    width: 19vw;
+    padding-top: 25px;
+
+
+
+}
+.bordes{
+    /* border-left: solid 2px gray; */
+    border: solid 3px gray;  
+  
+}
+
+#logos li a {
+    text-decoration: none;
+}
+
+#logos li a img{
+    width: 50px;
+    /* margin-top: 15px; */
+    
+}
+#logos li a p{
+    text-decoration: none;
+    display: inline-block;
+    width: 65%;
+    margin-left: 10px;
+    /* margin-top: 15px; */
+    
+}
+#email{
+    padding-top: 2.7%;
+    
+}
+
+#linkLaboratoria{
+    text-decoration: none;
+    color: rgb(255, 218, 9);
+}
+.elFooter{
+    
+    padding-bottom: 8vh;
+
+}
