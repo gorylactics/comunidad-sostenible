@@ -1,4 +1,9 @@
 /* *{outline: 1.7px dotted red;} */
+h1 ,h2 , h3 p , a {
+    font-size: 14px;
+}
+
+
 #navegacion{
     position: fixed; 
     z-index: 1;
